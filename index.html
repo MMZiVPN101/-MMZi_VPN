@@ -6,74 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
-
     body {
       font-family: 'Vazirmatn', sans-serif;
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
       background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
       color: #ffffff;
       text-align: center;
+      padding: 40px 20px;
       direction: rtl;
     }
-
-    .wave {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: url('https://i.ibb.co/zRGVBYd/wave3.png') repeat-x;
-      top: 0;
-      left: 0;
-      z-index: 0;
-      opacity: 0.15;
-      animation: wave 10s linear infinite;
-    }
-
-    @keyframes wave {
-      0% { background-position-x: 0; }
-      100% { background-position-x: 1000px; }
-    }
-
     .container {
-      position: relative;
-      z-index: 1;
       max-width: 700px;
       margin: auto;
-      background: rgba(0,0,0,0.5);
+      background: rgba(0,0,0,0.4);
       border-radius: 20px;
-      padding: 40px 30px;
-      margin-top: 50px;
+      padding: 30px;
       box-shadow: 0 0 25px rgba(0,0,0,0.5);
-      opacity: 0;
-      transform: translateY(40px);
-      animation: fadeInUp 1.5s forwards;
     }
-
-    @keyframes fadeInUp {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
     .logo {
       width: 100px;
       border-radius: 50%;
       margin-bottom: 20px;
     }
-
     h1 {
       font-size: 28px;
       margin-bottom: 10px;
       color: #00eaff;
     }
-
     p {
       font-size: 16px;
       line-height: 1.8;
     }
-
     .config-box {
       background-color: #1a1a1a;
       border: 1px solid #00eaff;
@@ -84,7 +46,6 @@
       font-size: 13px;
       word-break: break-word;
     }
-
     button {
       background-color: #00eaff;
       color: #000;
@@ -95,7 +56,6 @@
       font-weight: bold;
       cursor: pointer;
     }
-
     a {
       color: #00eaff;
       display: block;
@@ -104,22 +64,14 @@
       font-weight: bold;
       text-decoration: none;
     }
-
     .footer {
       margin-top: 35px;
       font-size: 14px;
-      opacity: 0.85;
-    }
-
-    .footer a {
-      color: #ffcc70;
-      text-decoration: none;
+      opacity: 0.8;
     }
   </style>
 </head>
 <body>
-  <div class="wave"></div>
-
   <div class="container">
     <img src="https://telegra.ph/file/8f54c946a97c0296f52f4.jpg" alt="MMZi Logo" class="logo">
     <h1>🌐 MMZi VPN</h1>
@@ -130,10 +82,7 @@
     <button onclick="copyConfig()">📋 کپی کانفیگ</button>
     
     <a href="https://t.me/MMZi_VPN" target="_blank">📢 ورود به کانال تلگرام</a>
-    <div class="footer">
-      💬 برای خرید سرور اختصاصی و پشتیبانی، پیام دهید:
-      <a href="https://t.me/MMZi_A" target="_blank">@MMZi_VPN</a>
-    </div>
+    <div class="footer">💬 برای خرید سرور اختصاصی و پشتیبانی، پیام دهید: @MMZi_A</div>
   </div>
 
   <script>
