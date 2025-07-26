@@ -78,23 +78,23 @@
     <p>برای دریافت اینترنت آزاد و پرسرعت، از کانفیگ زیر استفاده کنید:</p>
 
     <p>🔹 کانفیگ ۱:</p>
-<div class="config-box">vless://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=%2F%3F---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN&security=&encryption=none&type=ws#%F0%9F%8C%90join-%40MMZi_VPN</div>
+<div class="config-box" id="config1">vless://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=%2F%3F---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN&security=&encryption=none&type=ws#%F0%9F%8C%90join-%40MMZi_VPN</div>
+<button onclick="copyConfig('config1')">📋 کپی کانفیگ ۱</button>
 
 <p>🔹 کانفیگ ۲:</p>
-<div class="config-box">vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@77.91.101.201:2082/?type=ws&encryption=none&flow=&path=%2F?---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN---Join-TELEGRAM-MMZi_VPN#🇬🇧join-@MMZi_VPN</div>
-    
-    <button onclick="copyConfig()">📋 کپی کانفیگ</button>
+<div class="config-box" id="config2">vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@45.15.127.190:2082/?type=ws&encryption=none&flow=#🇫🇮join-@MMZi_VPN</div>
+<button onclick="copyConfig('config2')">📋 کپی کانفیگ ۲</button>
     
     <a href="https://t.me/MMZi_VPN" target="_blank">📢 ورود به کانال تلگرام</a>
     <div class="footer">💬 برای خرید سرور اختصاصی و پشتیبانی، پیام دهید: @MMZi_A</div>
   </div>
 
-  <script>
-    function copyConfig() {
-      const config = document.getElementById('config');
-      navigator.clipboard.writeText(config.innerText);
-      alert("✅ کانفیگ کپی شد!");
-    }
-  </script>
+ <script>
+  function copyConfig(id) {
+    const config = document.getElementById(id);
+    navigator.clipboard.writeText(config.innerText);
+    alert("✅ کانفیگ کپی شد!");
+  }
+</script>
 </body>
 </html>
