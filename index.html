@@ -1,125 +1,1 @@
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-  <meta charset="UTF-8">
-  <title>MMZi VPN</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
-    body {
-      font-family: 'Vazirmatn', sans-serif;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #ffffff;
-      text-align: center;
-      padding: 40px 20px;
-      direction: rtl;
-    }
-    .container {
-      max-width: 700px;
-      margin: auto;
-      background: rgba(0,0,0,0.4);
-      border-radius: 20px;
-      padding: 30px;
-      box-shadow: 0 0 25px rgba(0,0,0,0.5);
-    }
-    .logo {
-      width: 100px;
-      border-radius: 50%;
-      margin-bottom: 20px;
-    }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 10px;
-      color: #00eaff;
-    }
-    p {
-      font-size: 16px;
-      line-height: 1.8;
-    }
-    .config-box {
-      background-color: #1a1a1a;
-      border: 1px solid #00eaff;
-      padding: 15px;
-      border-radius: 10px;
-      direction: ltr;
-      margin-top: 20px;
-      font-size: 13px;
-      word-break: break-word;
-    }
-    button {
-      background-color: #00eaff;
-      color: #000;
-      border: none;
-      padding: 10px 20px;
-      margin-top: 15px;
-      border-radius: 8px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #00eaff;
-      display: block;
-      margin-top: 25px;
-      font-size: 16px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .footer {
-      margin-top: 35px;
-      font-size: 14px;
-      opacity: 0.8;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <img src="https://telegra.ph/file/8f54c946a97c0296f52f4.jpg" alt="MMZi Logo" class="logo">
-    <h1>🌐 MMZi VPN</h1>
-    <p>برای دریافت اینترنت آزاد و پرسرعت، از کانفیگ زیر استفاده کنید:</p>
-
-    <p>🔹 کانفیگ ۱:</p>
-<div class="config-box" id="config1">vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.17.1.197:8880?path=%2F1ycR2zb3KeELWRha%3Fed%3D2560&security=none&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#%F0%9F%87%A8%F0%9F%87%A6join-%40MMZi_VPN</div>
-<button onclick="copyConfig('config1')">📋 کپی کانفیگ ۱</button>
-
-<p>🔹 کانفیگ ۲:</p>
-<div class="config-box" id="config2">vless://9570a079-f83f-4454-88d0-884057c57a35@fruitful-exchange.seotoolsforyou.co.uk:80?path=%2F&security=none&encryption=none&type=ws#%F0%9F%8C%90join-%40MMZi_VPN</div>
-<button onclick="copyConfig('config2')">📋 کپی کانفیگ ۲</button>
-    
-    <a href="https://t.me/MMZi_VPN" target="_blank">📢 ورود به کانال تلگرام</a>
-    <div class="footer">💬 برای خرید سرور اختصاصی و پشتیبانی، پیام دهید: @MMZi_A</div>
-  </div>
-
- <script>
-  function copyConfig(id) {
-    const config = document.getElementById(id);
-    navigator.clipboard.writeText(config.innerText);
-    alert("✅ کانفیگ کپی شد!");
-  }
-</script>
-  <div class="store-section">
-  <h2 style="margin-top:40px; color:#00eaff;">🛒 خرید سرویس‌های MMZi VPN</h2>
-
-  <div class="plan" style="border:1px solid #00eaff; border-radius:12px; padding:20px; margin:20px 0; background:#111;">
-    <h3>📦 پلن یک‌ماهه نامحدود</h3>
-    <p>قابل استفاده توسط ۲ کاربر به‌صورت هم‌زمان</p>
-    <p>بدون محدودیت حجم، مولتی‌لوکیشن + سرور تست رایگان</p>
-    <p>مناسب برای استفاده سنگین، بازی، استریم و دور زدن محدودیت‌ها</p>
-    <p><strong>قیمت: ۱۲۹,۰۰۰ تومان</strong></p>
-    <a href="https://t.me/MMZi_A" target="_blank" style="display:inline-block; margin-top:10px; padding:10px 18px; background:#00eaff; color:#000; font-weight:bold; border-radius:8px; text-decoration:none;">
-      🛒 ثبت سفارش در <strong>@MMZi_A</strong>
-    </a>
-  </div>
-
-  <div class="plan" style="border:1px solid #00eaff; border-radius:12px; padding:20px; margin:20px 0; background:#111;">
-    <h3>📊 پلن حجمی انعطاف‌پذیر</h3>
-    <p>زمان و کاربر نامحدود، فقط بر اساس حجم مصرفی</p>
-    <p>قیمت هر گیگ: <strong>۲,۰۰۰ تومان</strong> — حداقل سفارش ۱۰ گیگ</p>
-    <p>قابل استفاده برای مودم، گوشی، اشتراک‌گذاری، سرور، گیم</p>
-    <p>مولتی‌لوکیشن + سرور تست رایگان برای اطمینان شما</p>
-    <a href="https://t.me/MMZi_A" target="_blank" style="display:inline-block; margin-top:10px; padding:10px 18px; background:#00eaff; color:#000; font-weight:bold; border-radius:8px; text-decoration:none;">
-      📥 ثبت سفارش در <strong>@MMZi_A</strong>
-    </a>
-  </div>
-</div>
-</body>
-</html>
+<!-- Main Dashboard --> <main class="flex-1 p-8"> <div class="flex justify-between items-center mb-6"> <h1 class="text-2xl font-bold">داشبورد</h1> <div class="flex items-center space-x-4"> <input type="text" placeholder="جستجو..." class="px-4 py-2 border rounded" /> <div class="bg-green-600 text-white rounded-full w-10 h-10 flex items-center justify-center">م</div> </div> </div> <!-- Stats Boxes --> <div class="grid grid-cols-4 gap-6"> <div class="bg-white p-6 rounded shadow"> <h2 class="text-gray-500">کاربران فعال</h2> <p class="text-3xl font-bold text-green-600">۲۴</p> </div> <div class="bg-white p-6 rounded shadow"> <h2 class="text-gray-500">کانکشن‌های فعال</h2> <p class="text-3xl font-bold text-green-600">۱۲</p> </div> <div class="bg-white p-6 rounded shadow"> <h2 class="text-gray-500">اشتراک منقضی</h2> <p class="text-3xl font-bold text-green-600">۱۰</p> </div> <div class="bg-white p-6 rounded shadow"> <h2 class="text-gray-500">در حال اتمام</h2> <p class="text-3xl font-bold text-green-600">۲</p> </div> </div> <!-- Progress & Reminder --> <div class="grid grid-cols-3 gap-6 mt-8"> <div class="bg-white p-6 rounded shadow"> <h3 class="text-gray-700 mb-4">درصد استفاده از اشتراک</h3> <div class="text-center text-4xl font-bold text-green-600">۴۱٪</div> </div> <div class="bg-white p-6 rounded shadow"> <h3 class="text-gray-700 mb-4">یادآور</h3> <p class="text-gray-600">تمدید اشتراک کاربر X</p> <button class="mt-4 px-4 py-2 bg-green-600 text-white rounded">تمدید</button> </div> <div class="bg-white p-6 rounded shadow"> <h3 class="text-gray-700 mb-4">تایمر باقی‌مانده</h3> <div class="text-3xl font-mono text-green-700">01:24:08</div> </div> </div> <!-- Test Access --> <div class="mt-8 bg-white p-6 rounded shadow text-center"> <h2 class="text-xl font-bold mb-2">دریافت تست رایگان</h2> <p class="text-gray-600">تنها با یک کلیک تست رایگان دریافت کن</p> <button class="mt-4 px-6 py-2 bg-green-600 text-white rounded">دریافت تست</button> </div> <!-- Config Section --> <div class="mt-8 bg-white p-6 rounded shadow"> <h2 class="text-xl font-bold mb-4">کانفیگ‌ها</h2> <div class="space-y-4"> <div> <label class="block text-gray-600 mb-2">کانفیگ اول:</label> <textarea readonly class="w-full p-3 border rounded bg-gray-100 text-sm">vmess://eyJhZGQiOiI0NS44NS4xMTkuMTkwIiwiYWlkIjoiMCIsImFscG4iOiJodHRwLzEuMSIsImZwIjoicmFuZG9taXplZCIsImhvc3QiOiJmYXJpZC4xLmJlcm96aGEuaXIiLCJpZCI6ImRlOTRjYzBhLTA1OTItNDk2OS1iMWZjLTk3ZWE4ZjBlYTBiMyIsIm5ldCI6IndzIiwicGF0aCI6Ii91cy5ra3AubWUuZXUub3JnL2FhIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HrPCfh6cgVW5pdGVkIEtpbmdkb20gLSBATU1aaV9WUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiZmFyaWQuMS5iZXJvemhhLmlyIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=</textarea> </div> <div> <label class="block text-gray-600 mb-2">کانفیگ دوم:</label> <textarea readonly class="w-full p-3 border rounded bg-gray-100 text-sm">vmess://eyJhZGQiOiI5MS4yMjguMTAuMTI1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjZiODM3ZGRkLTdkZmItNDUyMC1kZDljLTY1ZDYxZDY0MDg5NiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDc2ODIiLCJwcyI6IvCfh6zwn4enIFVuaXRlZCBLaW5nZG9tIC0gQE1NWmlfVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==</textarea> </div> </div> </div> </main>
